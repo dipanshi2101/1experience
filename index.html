@@ -1,95 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1experience</title>
 
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Bootstrap Scripts -->
-  
-</head>
-<body>
+  </head>
+  <body>
+    <section id="fsection">
+      <video autoplay muted loop id="myVideo">
+        <source src="assets/blockvideo.mp4" type="video/mp4" />
+      </video>
 
-  <section id="fsection">
-  <video autoplay muted loop id="myVideo">
-    <source src="blockvideo.mp4" type="video/mp4">
-  </video>
+      <!-- Nav Bar -->
 
-     <!-- Nav Bar -->
+      <div class="text">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">1experience</a>
 
-     <div class="text">
-     <nav class="navbar navbar-expand-lg navbar-dark">
-
-        <a class="navbar-brand" href="">1experience</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+          >
             <span class="navbar-toggler-icon"></span>
-        </button>
+          </button>
 
-    
-         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login">Log in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#down">Features</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container-fluid" id="footer">
+          <p class="firstp">
+            <strong class="main-title"> 1experience</strong>
+            <br /><strong>Distributed</strong> <br /><strong
+              >Qualification</strong
+            >
+            <br /><strong>Database</strong>
+          </p>
 
-           
-           <ul class="navbar-nav ms-auto">
-          
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login">Log in</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#down">Features</a>
-            </li>
-         
-           </ul>
-       
-         </div>
-       
-     </nav>
-    <div class="container-fluid" id="footer">
-    <p class="firstp">
-     <strong> 1experience</strong>
-     <br><strong>Distributed</strong>
-     <br><strong>Qualification</strong>
-     <br><strong>Database</strong>
-    </p>
+          <button type="button" class="btn">
+            Join Now <img class="btnimg" src="assets/arrow.jpg" />
+          </button>
+        </div>
+      </div>
+    </section>
 
-    <button type="button" class="btn">Join Now <img class="btnimg" src="arrow.jpg"></button>
-    
-</div>
-</div>
+    <div class="cont" id="down">
+      <p class="paro">
+        What is <strong><span class="exp">1experience</span></strong> ?
+      </p>
 
-</section>
+      <p class="secondPara">
+        A distributed HyperLedger based Qualification distribution System. All
+        academic documents, Certifications, and industry experience in one place
+        making it easier to manage and track all your documents. Huge advantage
+        for hiring and education institutions to manage and verify the documents
+        of any applicant.
+      </p>
+    </div>
 
-<section id="s_section">
-
-<div class="cont" id="down">
-
-  <p class="paro">What is <strong><span class="exp">1experience</span></strong> ?</p>
-
-  <p class="secondPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Molestiae rerum in ut, reprehenderit sed dolorem itaque voluptatum, laudantium, reiciendis quo assumenda velit eligendi odio voluptas id cum maiores! Ullam, quasi!
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur optio natus aliquid explicabo, quas numquam eum blanditiis aperiam reprehenderit nulla eaque esse
-   error distinctio quidem quod architecto dicta officiis cumque!
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit optio magni, ad cumque pariatur sit nisi odio dicta exercitationem alias molestias? Rerum velit aliquid 
-  necessitatibus temporibus quae doloremque natus animi?</p>
-
-</div>
-</section>
-
-
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <strong>
+                    <span class="exp"
+                      >1experience - Individual Perspective</span
+                    >
+                  </strong>
+                </h5>
+                <p class="card-text">
+                  Tired of collecting papers? Here is a solution to recieve all
+                  you acedemic and industry related doscuments in one place
+                  within few minues.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <strong>
+                    <span class="exp"
+                      >1experience - Organisation perspective</span
+                    >
+                  </strong>
+                </h5>
+                <p class="card-text">
+                  Tired of verifying the authenticity of documents provided by
+                  applicant? Here is a solution to verify all your documents in
+                  one place within few minues.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="index.js" charset="utf-8"></script>
-</body>
+  </body>
 </html>
